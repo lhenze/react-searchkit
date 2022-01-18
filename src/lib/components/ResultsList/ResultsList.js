@@ -66,7 +66,7 @@ const Element = ({ results, overridableId }) => {
       id={buildUID('ResultsList.container', overridableId)}
       results={_results}
     >
-      <Item.Group divided relaxed link>
+      <Item.Group divided relaxed link as="article" id="results">
         {_results}
       </Item.Group>
     </Overridable>
