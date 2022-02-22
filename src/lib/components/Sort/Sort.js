@@ -124,6 +124,7 @@ const Element = ({ overridableId, ...props }) => {
         value={selected}
         onChange={(e, { value }) => onValueChange(value)}
         aria-label={ariaLabel}
+        selectOnNavigation={false}
       />
     </Overridable>
   );
