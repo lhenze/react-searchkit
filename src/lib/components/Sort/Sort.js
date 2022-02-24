@@ -123,7 +123,7 @@ const Element = ({ overridableId, ...props }) => {
         options={_options}
         value={selected}
         onChange={(e, { value }) => onValueChange(value)}
-        aria-label={ariaLabel}
+        aria-label="test 2002-02-24"
         selectOnNavigation={false}
       />
     </Overridable>
